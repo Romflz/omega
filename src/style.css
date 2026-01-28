@@ -1,1 +1,18 @@
 @import 'tailwindcss';
+
+@theme {
+  /* Primary - Orange */
+  --color-primary: #f18f2e;
+  --color-primary-dark: #e74627;
+  --color-primary-darker: #7d2817;
+
+  /* Neutral */
+  --color-background: #080807;
+  --color-surface: #1d1d1c;
+  --color-white: #ffffff;
+
+  /* Text */
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #9a9a9a;
+  --color-text-muted: #6a6a6a;
+}

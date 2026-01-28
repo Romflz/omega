@@ -25,21 +25,21 @@ export const useMenuStore = defineStore('menu', () => {
     },
     {
       id: 2,
+      name: 'Stocks',
+      icon: StocksIcon,
+      route: '/stocks',
+    },
+    {
+      id: 3,
       name: 'Analytics',
       icon: AnalyticsIcon,
       route: '/analytics',
     },
     {
-      id: 3,
+      id: 4,
       name: 'Cards',
       icon: CardsIcon,
       route: '/cards',
-    },
-    {
-      id: 4,
-      name: 'Stocks',
-      icon: StocksIcon,
-      route: '/stocks',
     },
   ])
 
