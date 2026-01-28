@@ -9,7 +9,8 @@ import AnalyticsIcon from '@/assets/icons/menu/analytics-icon.svg?component'
 interface MenuItem {
   id: number
   name: string
-  icon?: Component
+  icon: Component
+  route: string
 }
 
 export const useMenuStore = defineStore('menu', () => {
@@ -20,21 +21,25 @@ export const useMenuStore = defineStore('menu', () => {
       id: 1,
       name: 'Home',
       icon: HomeIcon,
+      route: '/',
     },
     {
       id: 2,
       name: 'Analytics',
       icon: AnalyticsIcon,
+      route: '/analytics',
     },
     {
       id: 3,
       name: 'Cards',
       icon: CardsIcon,
+      route: '/cards',
     },
     {
       id: 4,
       name: 'Stocks',
       icon: StocksIcon,
+      route: '/stocks',
     },
   ])
 
